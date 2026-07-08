@@ -1,34 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <link rel="stylesheet" href="styles/layout.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="basic-layout">
+
+    <title>WDD 131 | Dynamic Web Fundamentals | Francis Mwaka</title>
+
+    <meta name="description" content="WDD 131 | Dynamic Web Fundamentals course homepage for Francis Mwaka. Learn about web development, programming, and my interests.">
+
     <meta name="author" content="Francis Mwaka">
-    <title>Francis Mwaka | Dynamic Web Fundamentals | WDD 131</title>
-    <span></span>
+
+    <link rel="stylesheet" href="styles/base.css">
+
+    <script src="scripts/getdates.js" defer></script>
+
 </head>
+
 <body>
-    <header>
-        <nav>
-            <a href="../index.html">HOME</a>
-            <a href="projects.html">Projects</a>
-            <a href="services.html">Services</a>
-            <a href="contact.html">Contact US</a>
-        </nav>
-    </header>
 
-    <main>
-        <h2>Main Content</h2>
-    </main>
+<header>
+    <span id="course-title">
+        WDD 131 – Dynamic Web Fundamentals
+    </span>
 
-    <aside>
-        <h2>Aside Content</h2>
-    </aside>
+    <nav>
+        <a href="https://www.linkedin.com/in/mwaka-francis-99098b10b/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BqUiwwXIEQZSkBPhrhPKMiQ%3D%3D">LinkedIn</a>
+        <a href="https://byupw.instructure.com/">Canvas</a>
+        <a href="https://www.churchofjesuschrist.org/study/scriptures">Scriptures</a>
+        <a href="#">Final Project</a>
+    </nav>
+</header>
 
-    <footer>
-        <h2>Footer Content</h2>
-    </footer>
+
+<main>
+
+    <h1>Francis Mwaka</h1>
+
+    <section class="card">
+        <h2>About Me</h2>
+
+        <img src="images/profile.jpg" alt="Francis Mwaka">
+
+        <p>
+            My name is Francis Mwaka. I am from Uganda.
+            I enjoy web development, cybersecurity, community work,
+            and learning new technologies.
+        </p>
+
+    </section>
+
+
+    <section class="card">
+
+        <h2>Uganda</h2>
+
+        <img src="images/sunrise.jpg" alt="Uganda landscape">
+
+        <p>
+            Uganda is a beautiful country in East Africa known for
+            its rich culture, wildlife, and friendly people.
+        </p>
+
+    </section>
+
+</main>
+
+
+<footer>
+
+<p>
+    © <span id="currentyear"></span> Francis Mwaka | Uganda
+</p>
+
+<p id="lastModified"></p>
+
+</footer>
+
+
 </body>
+
 </html>
