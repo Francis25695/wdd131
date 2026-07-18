@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kabale, Uganda | Discover the Switzerland of Africa</title>
+  <meta name="description" content="Explore Kabale, Uganda — home of Lake Bunyonyi, terraced hills, and a cool highland climate.">
+  <meta name="author" content="Francis Mwaka">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles/place.css">
+  <script src="scripts/place.js" defer></script>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <p class="logo">Kabale<span>.ug</span></p>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#attractions">Attractions</a></li>
+          <li><a href="#weather">Weather</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section id="home" class="hero">
+      <picture>
+        <source srcset="https://picsum.photos/id/1015/600/500" media="(max-width: 600px)">
+        <source srcset="https://picsum.photos/id/1015/1600/700" media="(min-width: 601px)">
+        <img src="https://picsum.photos/id/1015/1600/700" alt="Rolling green hills and a calm lake in Kabale, Uganda" class="hero-img">
+      </picture>
+      <div class="hero-text">
+        <h1>Kabale, Uganda</h1>
+        <p>The Switzerland of Africa</p>
+      </div>
+    </section>
+
+    <section class="intro">
+      <h2>Welcome to Kabale</h2>
+      <p>
+        Tucked into the misty highlands of southwestern Uganda, Kabale is famous for its terraced hillsides,
+        crater lakes, and a cool climate that sets it apart from the rest of the country. It's a place I've
+        long wanted to visit — a quiet escape built into steep green valleys, bordering Rwanda and the
+        Democratic Republic of Congo.
+      </p>
+    </section>
+
+    <section id="attractions" class="attractions">
+      <h2>Top Attractions</h2>
+      <div class="card-grid">
+
+        <article class="card">
+          <img src="https://picsum.photos/id/1043/500/350" alt="Lake Bunyonyi surrounded by terraced hills and small islands" loading="lazy">
+          <h3>Lake Bunyonyi</h3>
+          <p>One of Africa's deepest lakes, dotted with 29 islands and free of bilharzia, making it safe for swimming and canoeing.</p>
+        </article>
+
+        <article class="card">
+          <img src="https://picsum.photos/id/1036/500/350" alt="Terraced hillside farms in Kabale district" loading="lazy">
+          <h3>Terraced Hillsides</h3>
+          <p>Generations of hand-cut terraces climb every hillside, a striking blend of agriculture and landscape art.</p>
+        </article>
+
+        <article class="card">
+          <img src="https://picsum.photos/id/1018/500/350" alt="Echuya Forest Reserve near Kabale" loading="lazy">
+          <h3>Echuya Forest Reserve</h3>
+          <p>A montane forest home to rare birds and primates, and a gateway to nearby Mgahinga Gorilla National Park.</p>
+        </article>
+
+      </div>
+    </section>
+
+    <section id="weather" class="weather">
+      <h2>Weather</h2>
+      <div class="weather-grid">
+        <div class="weather-icon" aria-hidden="true">
+          <img src="images/cloud-sun.svg" alt="" class="weather-svg">
+        </div>
+        <dl class="weather-data">
+          <div class="weather-row">
+            <dt>Temperature</dt>
+            <dd id="temperature">9&deg;C</dd>
+          </div>
+          <div class="weather-row">
+            <dt>Wind Speed</dt>
+            <dd id="wind-speed">14 km/h</dd>
+          </div>
+          <div class="weather-row">
+            <dt>Wind Chill</dt>
+            <dd id="wind-chill"></dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Francis Mwaka | Kabale, Uganda</p>
+    <p>Last Modified: <span id="last-modified"></span></p>
+    
+  </footer>
+
+</body>
+</html>
